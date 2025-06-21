@@ -9,13 +9,13 @@ function SocialSection() {
                     <SocialLinks link="https://github.com/mofesilva" icon="fa-brands fa-github" />
                 </li>
               <li className="social-item">
-                    <SocialLinks link="https://github.com/mofesilva" icon="fa-brands fa-gitlab" />
+                    <SocialLinks link="https://gitlab.com/mofesilva" icon="fa-brands fa-gitlab" />
                 </li>
                 <li className="social-item">
-                    <SocialLinks link="https://github.com/mofesilva" icon="fa-brands fa-instagram" />
+                    <SocialLinks link="https://www.linkedin.com/in/mofesilva/" icon="fa-brands fa-linkedin" />
                 </li>
                 <li className="social-item">
-                    <SocialLinks link="https://github.com/mofesilva" icon="fa-brands fa-linkedin" />
+                    <SocialLinks link="https://instagram.com/mofeverso" icon="fa-brands fa-instagram" />
                 </li>
             </ul>
         </div>
