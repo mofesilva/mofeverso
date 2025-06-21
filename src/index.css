@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Outfit:wght@100..900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url(assets/icons/fontawesome-free-6.7.2-web/css/all.css);
+@import url(assets/icons/fontawesome-free-6.7.2-web/css/all.min.css);
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -14,16 +17,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-.rajdhani {
-  font-family: 'Rajdhani', sans-serif;
-}
-
-.league-spartan {
-  font-family: 'League Spartan', sans-serif;
-}
-
-.outfit {
-  font-family: 'Outfit', sans-serif;
 }
