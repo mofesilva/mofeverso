@@ -1,22 +1,16 @@
 import React from 'react';
-import profilePic from '../../assets/images/profile-pic.jpg';
+import profilePic from '../../assets/images/me-profile-pic.jpg';
+import HeaderContent from './components/HeaderContent';
+import HeaderProfilePicture from './components/HeaderProfilePicture';
+import SocialSection from '../socials/SocialSection';
 
-function Header(props) {
+function Header() {
     return (
-        <header className="text-center content-center justify-items-center h-1/3 w-full text-white p-2">
-            <div id="profile-pic" className="justify-center rounded-2xl aspect-square
-            align-center items-center bg-white size-48 overflow-clip">
-                <img src={profilePic} alt="Profile" className="w-full h-full object-cover" />
-            </div>
-            <div id="name" className=" font-bold pt-4">
-                <h1 className="text-2xl rajdhani text-vlight-blue ">
-                    Moisés Ferreira e Silva
-                </h1>
-                <h2 className="text-sm league-spartan text-vlight-blue text pt-1">
-                    Fullstack Software Enginner | Flutter/Dart | Node.js | UI/UX Designer | Content Creator | Brand Designer | Social Media Designer
-                </h2>
-                <div className="divider h-px bg-vlight-blue mt-4 mx-2"></div>
-            </div>
+        <header className="flex flex-col items-center text-center content-end
+        lg:justify-self-center justify-items-center justify-center md:h-1/2 h-2/5 w-full lg:w-1/2 text-white pt-14">
+            <HeaderProfilePicture profilePic={profilePic} rounded="rounded-2xl" size="size-48" />
+            <HeaderContent />
+            <SocialSection />
         </header>
     )
 }
