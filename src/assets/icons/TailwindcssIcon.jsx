@@ -6,7 +6,7 @@ export default function TailwindcssIcon({ className = "", ...props }) {
       xmlns="http://www.w3.org/2000/svg"
       fill="currentColor"
       viewBox="0 0 54 33"
-      className="text-soft-text size-10 hover:text-accent"
+      className="text-soft-text size-10 hover:text-accent transition-all duration-300"
     >
       <g clipPath="url(#prefix__clip0)">
         <path

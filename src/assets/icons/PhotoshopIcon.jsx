@@ -6,7 +6,7 @@ export default function PhotoshopLogo({ className = "", ...props }) {
       viewBox="0 0 240 234"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className="text-soft-text size-8 hover:text-accent justify-center text-center justify-items-center items-center justify-self-center content-center"
+      className="text-soft-text size-8 hover:text-accent transition-all duration-300 justify-center text-center justify-items-center items-center justify-self-center content-center"
     >
       {/* Fundo azul escuro */}
       <path
