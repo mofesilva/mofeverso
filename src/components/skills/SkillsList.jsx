@@ -6,7 +6,7 @@ import PhotoshopLogo from '../../assets/icons/PhotoshopIcon';
 
 function SkillsList(props) {
     return (
-        <div className="w-full mt-4">
+        <div className="w-full  lg:w-1/2  mt-4 justify-self-center">
             <SectionTitle title="Skills" />
             <ul className="skill-list p-4 flex flex-wrap gap-4 justify-center">
                 <li className="skill-item">
