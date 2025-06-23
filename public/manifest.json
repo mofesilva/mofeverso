@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Mofeverso",
+  "name": "Um mini portifolio/website para divulgar meus projetos e habilidades",
   "icons": [
     {
       "src": "favicon.ico",

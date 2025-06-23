@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../components/header/Header';
 import ProfileBio from '../components/profile/ProfileBio';
 import SkillsList from '../components/skills/SkillsList';
-import SectionTitle from '../components/SectionTitle';
+import ProjectsSection from '../components/projects/ProjectsSection';
 
 function Home() {
     return (
@@ -10,7 +10,7 @@ function Home() {
             <Header />
             <ProfileBio />
             <SkillsList />
-            <SectionTitle title="Projetos" />
+            <ProjectsSection />
         </div>
     )
 }
